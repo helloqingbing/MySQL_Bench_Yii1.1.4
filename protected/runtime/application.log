@@ -1,0 +1,11 @@
+2014/10/06 14:58:24 [error] [system.db.CDbCommand] Error in querying SQL: SELECT SQL_CALC_FOUND_ROWS * FROM ``
+	WHERE 1 LIMIT 0, 20 
+2014/10/06 14:58:34 [error] [system.db.CDbCommand] Error in querying SQL: SELECT SQL_CALC_FOUND_ROWS * FROM ``
+	WHERE 1
+	LIMIT 0, 20
+2014/10/06 15:00:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in E:\ProgramEx\webapp\chive\yii\web\CWebApplication.php:328
+Stack trace:
+#0 E:\ProgramEx\webapp\chive\yii\web\CWebApplication.php(121): CWebApplication->runController('images/loading....')
+#1 E:\ProgramEx\webapp\chive\yii\base\CApplication.php(135): CWebApplication->processRequest()
+#2 E:\ProgramEx\webapp\chive\index.php(105): CApplication->run()
+#3 {main} REQUEST_URI=/chive/index.php/images/loading.gif

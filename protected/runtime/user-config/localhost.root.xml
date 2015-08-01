@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<settings host="localhost" user="root"><showFullColumnContent scope="schema.table.browse" object="code_editor.">1</showFullColumnContent><pageSize scope="schema.table.browse">20</pageSize><sidebarWidth>248</sidebarWidth><sidebarState>open</sidebarState></settings>
